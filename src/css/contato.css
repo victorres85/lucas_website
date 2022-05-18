@@ -1,0 +1,47 @@
+#contact {
+    background: #2d3033 url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/envelope.svg?sanitize=true) no-repeat right;
+    -webkit-clip-path: polygon(14% 0, 32% 9%, 100% 0, 100% 94%, 32% 100%, 14% 94%, 0 94%, 0% 70%, 0% 35%, 0 0);
+    clip-path: polygon(14% 0, 32% 9%, 100% 0, 100% 94%, 32% 100%, 14% 94%, 0 94%, 0% 70%, 0% 35%, 0 0);
+    color: #fafafa;
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: -10px 0 0px;
+    z-index: 0;
+    font-size: 1.3rem;
+}
+
+#contact-form {
+    position: relative;
+}
+
+.contato_txt {
+    position: absolute;
+    color: yellow;
+    z-index: 1;
+}
+.contanto p, .rodape p, .text-left{
+    color: yellow;
+    
+}
+
+.button_submit {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    background-color: #f2f2f2;
+    width: 80px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 1px 1px 1px 1px #cfafff;
+    box-shadow: inset 1px 1px 1px 1px #cfafff;
+    text-align: center;
+
+}
+
+.button_submit:hover {
+    -webkit-box-shadow: 1px 1px 8px 1px #F9FF45;
+    box-shadow: 1px 1px 8px 1px #F9FF45;
+}

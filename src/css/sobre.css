@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+.sobre_01 {
+  margin-top: 100px;
+  height: max-content;
+  display: flex;
+  align-items: center;
+}
+
+
+.sobre {
+  font-family: 'Special Elite', cursive;
+  columns: 3;
+  column-fill: balance-all;
+  column-gap: 1.5em;
+  padding: 2em 4em;
+  font: 1em/1.2 "special elite", serif;
+  hyphens: auto;
+  text-align: center;
+  color: black;
+
+}
+
+@media only screen and (max-width: 810px) {
+  .sobre {
+    columns: 2;
+    height: max-content;
+
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .sobre {
+    -moz-column-count: 1;
+    -moz-column-gap: 1px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 1px;
+    column-count: 1;
+    column-gap: 1px;
+    margin-left: 0;
+    height: max-content;
+    line-height: 1.4;
+    font: 0.9em/1.2 "special elite", serif;
+
+  }
+}
+
+.sobre h1 {
+  font-family: 'Oleo Script', cursive;
+  font: 2em/0.9 "Limelight", serif;
+  font-variant: small-caps;
+  hyphens: none;
+}
+
+.sobre h1+p {
+  font-size: 0.77em;
+  position: relative;
+  top: -0.5em;
+  text-align: center;
+}
+
+.sobre h2 {
+  font: 1.5em/1 "oleo script", serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.sobre h2:after {
+  content: "⚚";
+  display: block;
+  width: 20%;
+  margin-top: 0.4em;
+  border-top: thin solid black;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sobre blockquote {
+  font: italic 1em/1 serif;
+  margin: 1em;
+  hyphens: none;
+}
+
+.sobre blockquote p {
+  quotes: "“""”";
+  display: inline;
+}
+
+.sobre blockquote p:before {
+  content: open-quote;
+  font-weight: bold;
+}
+
+.sobre blockquote p:after {
+  content: close-quote;
+  font-weight: bold;
+}
+
+.sobre h3 {
+  font: 1em/1 "Averia Serif Libre", serif;
+  letter-spacing: -0.2ch;
+  word-spacing: 0.5ch;
+  hyphens: none;
+  margin: 1em 0;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+  padding: 0.2em;
+  box-sizing: border-box;
+  break-inside: avoid-column;
+  /*chrm edge*/
+  page-break-inside: avoid;
+  /*ff*/
+}
+
+.sobre p {
+  margin: 1em 0;
+  text-align: justify;
+}
+
+.sobre strong {
+  font-weight: bolder;
+}
+
+.sobre em {
+  font-style: italic;
+}
+
+.sobre ul {
+  list-style: disc inside;
+  margin-left: 2ch;
+}
+
+.sobre ol {
+  list-style: roman inside;
+  margin-left: 2ch;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.sobre li {
+  text-align: left;
+}
+
+/* 
+Cover image 
+*/
+/* 
+Mainhead 
+*/
+
+/*# sourceMappingURL=sobre.css.map */
