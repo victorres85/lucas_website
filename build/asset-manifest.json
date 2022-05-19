@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/victorpinheiro.neocities.org/static/css/main.a8336432.css",
+    "main.js": "/victorpinheiro.neocities.org/static/js/main.d8830193.js",
+    "static/js/787.400df1a4.chunk.js": "/victorpinheiro.neocities.org/static/js/787.400df1a4.chunk.js",
+    "static/media/cena11.png": "/victorpinheiro.neocities.org/static/media/cena11.334049efe77e1ebc1e24.png",
+    "static/media/cena2.png": "/victorpinheiro.neocities.org/static/media/cena2.316050c0ab6332e94ee6.png",
+    "static/media/cena9.png": "/victorpinheiro.neocities.org/static/media/cena9.ae19aaa0a1b375ce1e60.png",
+    "static/media/teatro-02.jpg": "/victorpinheiro.neocities.org/static/media/teatro-02.0764fa8f958050af6895.jpg",
+    "static/media/teatro-03.jpg": "/victorpinheiro.neocities.org/static/media/teatro-03.db076a9a26d23f200af1.jpg",
+    "static/media/teatro-01.jpg": "/victorpinheiro.neocities.org/static/media/teatro-01.6ca27ba185abfbfc9080.jpg",
+    "index.html": "/victorpinheiro.neocities.org/index.html",
+    "main.a8336432.css.map": "/victorpinheiro.neocities.org/static/css/main.a8336432.css.map",
+    "main.d8830193.js.map": "/victorpinheiro.neocities.org/static/js/main.d8830193.js.map",
+    "787.400df1a4.chunk.js.map": "/victorpinheiro.neocities.org/static/js/787.400df1a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8336432.css",
+    "static/js/main.d8830193.js"
+  ]
+}
