@@ -12,6 +12,7 @@
     margin: -10px 0 0px;
     z-index: 0;
     font-size: 1.3rem;
+    position: relative
 }
 
 #contact-form {
@@ -23,9 +24,17 @@
     color: yellow;
     z-index: 1;
 }
-.contanto p, .rodape p, .text-left{
+
+.contanto p,
+.rodape p,
+.text-left {
     color: yellow;
-    
+
+}
+
+.title {
+    width: 350px;
+    margin:0;
 }
 
 .button_submit {
@@ -44,4 +53,30 @@
 .button_submit:hover {
     -webkit-box-shadow: 1px 1px 8px 1px #F9FF45;
     box-shadow: 1px 1px 8px 1px #F9FF45;
+}
+
+#contact .container {
+    width: 350px;
+    position: absolute;
+    left: 15%;
+}
+
+
+input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: rgba(250, 250, 250, 0.4);
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+    width: 450px;
+}
+
+textarea {
+    width: 450px;
+    height: 150px;
+    background-color: rgba(250, 250, 250, 0.4);
+    border-radius: 5px;
+
 }

@@ -17,6 +17,7 @@ function Navbar() {
                 <li><a href="#televisao">Televisao</a></li>
                 <li><a href="#teatro">Teatro</a></li>
                 <li><a href="#cinema">Cinema</a></li>
+                <li><a href="#publicidade">Publicidade</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </header>
