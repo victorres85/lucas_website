@@ -2,27 +2,10 @@ import { useState } from "react";
 import Modal from './Modals/Modal'
 import '../css/publicidade.css'
 
-
-const iframe_01 = "https://www.youtube.com/embed/ljwtnHUnOpw";
-const iframe_02 = "https://www.youtube.com/embed/W7-TapGv-CQ";
-const iframe_03 = "https://www.youtube.com/embed/uiwpWx5nGHI";
-const iframe_04 = "https://www.youtube.com/embed/O-QGK4LXWW0";
-const iframe_05 = "https://www.youtube.com/embed/GJDNkWS1Szw";
-const iframe_06 = "https://www.youtube.com/embed/1ozdRwHrMlE";
-const iframe_07 = "https://www.youtube.com/embed/IhsecLVir8s";
-const iframe_08 = "https://www.youtube.com/embed/D6VwelCZsuk";
-const iframe_09 = "https://www.youtube.com/embed/3QIX3Nnm1mw";
-
-
-
-
 function Publicidade() {
     const [openModal, setOpenModal] = useState(false);
     const [linkVideo, setLinkVideo] = useState('');
-    const handleImageClick = (videoLink) => {
-        setOpenModal(true)
-        setLinkVideo(videoLink)
-    }
+
     return (
         <div className='publicidade_root'>
             <div className='publicidade_body'>

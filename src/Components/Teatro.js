@@ -67,7 +67,7 @@ const options = {
             items: 1,
             center: true,
             stagePadding: 40,
-        margin:120,    
+            margin: 120,
         },
         768: {
             items: 2,
@@ -91,7 +91,7 @@ const options = {
 function Teatro() {
     let tvCard = tv.map((item) => (
         <div className='item card' >
-            <img className='card-img-top' src={item.img} a lt={item.alt} width='300' />
+            <img className='card-img-top' src={item.img} alt={item.alt} width='300' />
             <div className='card-body' >
                 <h5 className="card-title" > {item.name} </h5>
                 < p class="card-text" > {item.personagem} </p>
