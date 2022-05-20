@@ -1,6 +1,5 @@
 {
   "name": "lucasweb",
-  // "homepage": "https://victorres85.github.io/lucas_website/blob/main/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
