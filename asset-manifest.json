@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/lucas_website/static/css/main.a8336432.css",
-    "main.js": "/lucas_website/static/js/main.a396a015.js",
-    "static/js/787.400df1a4.chunk.js": "/lucas_website/static/js/787.400df1a4.chunk.js",
-    "static/media/cena11.png": "/lucas_website/static/media/cena11.334049efe77e1ebc1e24.png",
-    "static/media/cena2.png": "/lucas_website/static/media/cena2.316050c0ab6332e94ee6.png",
-    "static/media/cena9.png": "/lucas_website/static/media/cena9.ae19aaa0a1b375ce1e60.png",
-    "static/media/teatro-02.jpg": "/lucas_website/static/media/teatro-02.0764fa8f958050af6895.jpg",
-    "static/media/teatro-03.jpg": "/lucas_website/static/media/teatro-03.db076a9a26d23f200af1.jpg",
-    "static/media/teatro-01.jpg": "/lucas_website/static/media/teatro-01.6ca27ba185abfbfc9080.jpg",
-    "index.html": "/lucas_website/index.html",
-    "main.a8336432.css.map": "/lucas_website/static/css/main.a8336432.css.map",
-    "main.a396a015.js.map": "/lucas_website/static/js/main.a396a015.js.map",
-    "787.400df1a4.chunk.js.map": "/lucas_website/static/js/787.400df1a4.chunk.js.map"
+    "main.css": "/lucas_website/blob/main/public/index.html/static/css/main.a8336432.css",
+    "main.js": "/lucas_website/blob/main/public/index.html/static/js/main.b12b4395.js",
+    "static/js/787.400df1a4.chunk.js": "/lucas_website/blob/main/public/index.html/static/js/787.400df1a4.chunk.js",
+    "static/media/cena11.png": "/lucas_website/blob/main/public/index.html/static/media/cena11.334049efe77e1ebc1e24.png",
+    "static/media/cena2.png": "/lucas_website/blob/main/public/index.html/static/media/cena2.316050c0ab6332e94ee6.png",
+    "static/media/cena9.png": "/lucas_website/blob/main/public/index.html/static/media/cena9.ae19aaa0a1b375ce1e60.png",
+    "static/media/teatro-02.jpg": "/lucas_website/blob/main/public/index.html/static/media/teatro-02.0764fa8f958050af6895.jpg",
+    "static/media/teatro-03.jpg": "/lucas_website/blob/main/public/index.html/static/media/teatro-03.db076a9a26d23f200af1.jpg",
+    "static/media/teatro-01.jpg": "/lucas_website/blob/main/public/index.html/static/media/teatro-01.6ca27ba185abfbfc9080.jpg",
+    "index.html": "/lucas_website/blob/main/public/index.html/index.html",
+    "main.a8336432.css.map": "/lucas_website/blob/main/public/index.html/static/css/main.a8336432.css.map",
+    "main.b12b4395.js.map": "/lucas_website/blob/main/public/index.html/static/js/main.b12b4395.js.map",
+    "787.400df1a4.chunk.js.map": "/lucas_website/blob/main/public/index.html/static/js/787.400df1a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8336432.css",
-    "static/js/main.a396a015.js"
+    "static/js/main.b12b4395.js"
   ]
 }
