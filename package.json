@@ -1,6 +1,6 @@
 {
   "name": "lucasweb",
-  "homepage": "victorpinheiro.neocities.org",
+  "homepage": "https://victorres85.github.io/lucas_website/blob/main/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,8 +21,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -46,6 +48,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
+    "netlify-cli": "^10.3.1",
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
   }
