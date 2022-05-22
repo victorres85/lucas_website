@@ -1,4 +1,4 @@
-import '../src/Sass/styles.scss';
+import '../src/css/styles.css';
 
 import Televisao from './Components/Televisao';
 import Teatro from './Components/Teatro';
