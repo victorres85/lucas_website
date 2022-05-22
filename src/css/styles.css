@@ -641,9 +641,9 @@ body,
   .modal-background {
     margin-top: 10%;
     margin-bottom: 24%;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 95vw;
     height: 50%;
     border-radius: 20px;
   }
