@@ -3,11 +3,11 @@ function Contato() {
         <section id="contact">
             <div className="container">
                 <div className="heading">
-                        <p className="title text-left">
-                            Interessado no meu trabalho?
-                            <br></br>
-                            Me passe uma mensagem e conversamos:
-                        </p>
+                    <p className="title text-left">
+                        Interessado no meu trabalho?
+                        <br></br>
+                        Me passe uma mensagem e conversamos:
+                    </p>
                 </div>
                 <form id="contact-form" action="#" className="table">
                     <input className='input_espace row' id='nome' placeholder="Name" name="name" type="text" required />

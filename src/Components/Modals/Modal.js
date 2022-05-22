@@ -1,7 +1,7 @@
 
 
 function Modal({ closeModal, videoLink }) {
-    
+
 
     return (
         <div>

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Modal from './Modals/Modal'
-import '../css/publicidade.css'
 
 function Publicidade() {
     const [openModal, setOpenModal] = useState(false);

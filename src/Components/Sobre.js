@@ -1,5 +1,4 @@
 import React from "react";
-import '../css/sobre.css'
 
 function Sobre() {
     return (

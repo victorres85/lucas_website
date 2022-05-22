@@ -1,7 +1,5 @@
-import '../src/css/App.css';
-import '../src/css/contato.css';
-import '../src/css/modal.css';
-import '../src/css/style.css';
+import '../src/Sass/styles.scss';
+
 import Televisao from './Components/Televisao';
 import Teatro from './Components/Teatro';
 import Cinema from './Components/Cinema';
