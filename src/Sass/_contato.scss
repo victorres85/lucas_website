@@ -37,7 +37,7 @@
     position: absolute;
     top: 270px;
     left: 0px;
-    background-color: #f2f2f2;
+    // background-color: #f2f2f2;
     width: 80px;
     border-radius: 5px;
     -webkit-box-shadow: inset 1px 1px 1px 1px #cfafff;
@@ -107,14 +107,16 @@ textarea {
 
     #contact-form {
         position: absolute;
-        left: -30px;
+        left: -50px;
         top: 0px
     }
 
     .title {
         position: absolute;
         top: -110px;
-        left: -35px
+        left: -40px;
+        width: 90vw;
+        text-align: center;
     }
 
     .button_submit {

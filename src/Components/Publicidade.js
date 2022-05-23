@@ -14,19 +14,18 @@ function Publicidade() {
                             <img id='item-1' className='img_move' data-video-link='item-1'
                                 onClick={() => {
                                     setOpenModal(true)
-                                }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/ljwtnHUnOpw')}
+                                    setLinkVideo('https://www.youtube.com/embed/ljwtnHUnOpw')
+                                }
+                                }
                                 src="https://tse1.mm.bing.net/th?id=OIP.KRDXVIDQh58FyCzeWRV2jAHaKi&pid=Api&P=0&w=122&h=173" alt=""></img></li>
                         <li className='grid-item-2'>
-                            <img id='item-2'
+                            <img id='item-2' data-video-link='item-2'
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
-                                }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/W7-TapGv-CQ')}
-                                data-video-link='item-2'
+                                    setLinkVideo('https://www.youtube.com/embed/W7-TapGv-CQ')
+                                }
+                                }
                                 src="https://tse3.mm.bing.net/th?id=OIP.iiNSdtlTfIksFCStwuqEKQHaKZ&pid=Api&P=0&w=300&h=300"
                                 alt=""></img></li>
                         <li className='grid-item-3'>
@@ -34,9 +33,8 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/uiwpWx5nGHI')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/uiwpWx5nGHI')}
                                 data-video-link='item-3'
                                 src="https://tse4.mm.bing.net/th?id=OIP.YUVGxJdqNxT4NdWPq7hgHAHaKT&pid=Api&P=0&w=126&h=176"
                                 alt=""></img></li>
@@ -45,9 +43,8 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/O-QGK4LXWW0')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/O-QGK4LXWW0')}
                                 src="https://tse1.mm.bing.net/th?id=OIP.GxK5g9AKfaRXrUDoII5jfAAAAA&pid=Api&P=0&w=109&h=164"
                                 alt=""></img></li>
                         <li className='grid-item-5'>
@@ -55,9 +52,8 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/GJDNkWS1Szw')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/GJDNkWS1Szw')}
                                 data-video-link='item-5'
                                 src="https://tse4.mm.bing.net/th?id=OIP.MMxSQ1rBFPYOHJiVNQbD3QAAAA&pid=Api&P=0&w=100&h=164"
                                 alt=""></img></li>
@@ -66,9 +62,8 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/1ozdRwHrMlE')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/1ozdRwHrMlE')}
                                 data-video-link='item-6'
                                 src="https://tse4.mm.bing.net/th?id=OIP.X7OKyOWHoQzBzp2-_cStPgHaJQ&pid=Api&P=0&w=139&h=173"
                                 alt=""></img></li>
@@ -77,9 +72,8 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/IhsecLVir8s')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/IhsecLVir8s')}
                                 data-video-link='item-7'
                                 src="https://tse3.mm.bing.net/th?id=OIP.6-g9SGkt2QB8lbjvh9kXbwAAAA&pid=Api&P=0&w=122&h=163"
                                 alt=""></img></li>
@@ -88,9 +82,8 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/D6VwelCZsuk')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/D6VwelCZsuk')}
                                 data-video-link='item-8'
                                 src="https://tse3.explicit.bing.net/th?id=OIP.lx5LNDQNw7TLJopHXUoFzAAAAA&pid=Api&P=0&w=125&h=165"
                                 alt=""></img></li>
@@ -99,17 +92,18 @@ function Publicidade() {
                                 className='img_move'
                                 onClick={() => {
                                     setOpenModal(true)
+                                    setLinkVideo('https://www.youtube.com/embed/3QIX3Nnm1mw')
                                 }}
-                                onMouseOver={() =>
-                                    setLinkVideo('https://www.youtube.com/embed/3QIX3Nnm1mw')}
                                 data-video-link='item-9'
                                 src="https://tse2.mm.bing.net/th?id=OIP.PP2QRhakz8QpWCqfiekCrwHaLH&pid=Api&P=0&w=112&h=168"
                                 alt=""></img></li>
 
                     </ul>
                 </div>
-            </div>
-            {openModal && < Modal closeModal={setOpenModal} videoLink={linkVideo} />}
+            </div >
+            {
+                openModal && < Modal closeModal={setOpenModal} videoLink={linkVideo} />
+            }
         </div >
     )
 }
