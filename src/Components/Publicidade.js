@@ -85,7 +85,7 @@ function Publicidade() {
                                     setLinkVideo('https://www.youtube.com/embed/D6VwelCZsuk')
                                 }}
                                 data-video-link='item-8'
-                                src="https://tse3.explicit.bing.net/th?id=OIP.lx5LNDQNw7TLJopHXUoFzAAAAA&pid=Api&P=0&w=125&h=165"
+                                src="https://tse4.mm.bing.net/th?id=OIP.TohCtJOlbe9qb40p-aO2cQHaJy&pid=Api&P=0&w=128&h=169"
                                 alt=""></img></li>
                         <li className='grid-item-9'>
                             <img id='item-9'

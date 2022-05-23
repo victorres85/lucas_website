@@ -1,5 +1,6 @@
 {
   "name": "lucasweb",
+  "homepage": "https://victorres85.github.io/lucas_website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "CI=false && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
