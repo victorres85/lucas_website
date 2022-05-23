@@ -95,8 +95,7 @@ body {
 }
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 5px;
-  right: 20px;
+  top: 0px;
 }
 
 @media (min-width: 810px) {
@@ -409,7 +408,6 @@ body {
   position: absolute;
   top: 270px;
   left: 0px;
-  background-color: #f2f2f2;
   width: 80px;
   border-radius: 5px;
   -webkit-box-shadow: inset 1px 1px 1px 1px #cfafff;
@@ -476,14 +474,16 @@ textarea {
 
   #contact-form {
     position: absolute;
-    left: -30px;
+    left: -50px;
     top: 0px;
   }
 
   .title {
     position: absolute;
     top: -110px;
-    left: -35px;
+    left: -40px;
+    width: 90vw;
+    text-align: center;
   }
 
   .button_submit {
@@ -881,86 +881,25 @@ body,
 }
 #modal-container {
   position: fixed;
-  display: table;
-  height: 100%;
-  width: 100%;
   top: 0;
   left: 0;
-  transform: scale(0);
-  z-index: 1;
-}
-#modal-container.six {
-  transform: scale(1);
-}
-#modal-container.six .modal-background {
-  background: rgba(0, 0, 0, 0);
-  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six .modal-background .modal {
-  background-color: transparent;
-  animation: modalFadeIn 0.5s 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six .modal-background .modal h2,
-#modal-container.six .modal-background .modal p {
-  opacity: 0;
-  position: relative;
-  animation: modalContentFadeIn 0.5s 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six .modal-background .modal .modal-svg rect {
-  animation: sketchIn 0.5s 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six.out {
-  animation: quickScaleDown 0s 0.5s linear forwards;
-}
-#modal-container.six.out .modal-background {
-  animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six.out .modal-background .modal {
-  animation: modalFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six.out .modal-background .modal h2,
-#modal-container.six.out .modal-background .modal p {
-  animation: modalContentFadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-}
-#modal-container.six.out .modal-background .modal .modal-svg rect {
-  animation: sketchOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.6);
 }
 #modal-container .modal-background {
-  display: table-cell;
-  background: rgba(0, 0, 0, 0.8);
-  text-align: center;
-  vertical-align: middle;
+  margin-top: 15%;
+  margin-bottom: 24%;
+  margin-left: 25%;
+  margin-right: 20%;
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
 }
-#modal-container .modal-background .modal {
-  background: white;
-  padding: 50px;
-  display: inline-block;
-  border-radius: 3px;
-  font-weight: 300;
-  position: relative;
-}
-#modal-container .modal-background .modal h2 {
-  font-size: 25px;
-  line-height: 25px;
-  margin-bottom: 15px;
-}
-#modal-container .modal-background .modal p {
-  font-size: 18px;
-  line-height: 22px;
-}
-#modal-container .modal-background .modal .modal-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-radius: 3px;
-}
-#modal-container .modal-background .modal .modal-svg rect {
-  stroke: #fff;
-  stroke-width: 2px;
-  stroke-dasharray: 778;
-  stroke-dashoffset: 778;
+
+iframe {
+  border-radius: 20px;
 }
 
 @keyframes unfoldIn {
@@ -1059,6 +998,29 @@ body,
   100% {
     opacity: 0;
     top: -20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .modal-background {
+    min-width: 100%;
+    max-height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -25%;
+  }
+}
+@media (min-width: 451px) and (max-width: 810px) {
+  #modal-container .modal-background {
+    min-width: 70vw;
+    min-height: 90vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }
 .rodape {
